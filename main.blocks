@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="8Xs9$iqNUN=bZeM;p0xb" x="0" y="0"></block><block type="device_forever" id="J[aSC[Y|GyyhwzCtJ.{d" x="205" y="0"></block><block type="input_on_sound" id="ol*o;+Y%H`lE0`Jqb[x_" x="87" y="185"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="device_ring" id="DWioz|RK^y!C_Vu]w(5`"><value name="note"><shadow type="device_note" id="ZFi(`n(yw)(D+ZeC4$Q."><field name="name">262</field></shadow></value><next><block type="device_show_leds" id="4qvtEGD)6n-w_db|uLX="><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="Y#Nk:rY=yC3?7iv.tugM"><next><block type="device_print_message" id="b(G*)3JJK[95C#n3-zbD"><value name="text"><shadow type="text" id="s0`QMzTFPnu|gcVyHK7C"><field name="TEXT">Stop Prosim</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="2peJLqZy-5261V@7PLU+" x="456" y="251"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="music_stop_all_sounds" id="Am7u6B}a)%,*)SbDX;,:"><next><block type="device_stop_animation" id="8B521!U(t.Z9)]W`Qjn]"><next><block type="device_clear_display" id="7]M%[jF3y{f94Iip1tY@"></block></next></block></next></block></statement></block></xml>
